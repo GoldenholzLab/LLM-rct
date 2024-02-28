@@ -1,0 +1,31 @@
+	arm0	arm1
+alcoholism	0.0	1.0
+anxiety	2.0	0.0
+ataxia	0.0	5.0
+back pain	0.0	3.0
+balance disorder	4.0	5.0
+constipation	0.0	4.0
+decreased appetite	0.0	1.0
+depression	2.0	0.0
+dermatitis	1.0	0.0
+difficulty concentrating	0.0	1.0
+diplopia	1.0	9.0
+dizziness	8.0	19.0
+dysarthria	0.0	3.0
+fall	2.0	2.0
+fatigue	4.0	10.0
+gait disturbance	1.0	7.0
+headache	2.0	4.0
+hypertension	1.0	0.0
+multifocal epilepsy	1.0	0.0
+nausea	0.0	3.0
+none	22.0	3.0
+nystagmus	0.0	1.0
+parietal lobe epilepsy	0.0	1.0
+seasonal allergies	0.0	1.0
+seizures	1.0	1.0
+somnolence	5.0	20.0
+uri	2.0	1.0
+vertigo	2.0	2.0
+vomiting	0.0	3.0
+weakness	0.0	1.0

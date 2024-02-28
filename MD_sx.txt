@@ -1,0 +1,25 @@
+	arm0	arm1
+	0.0	2.0
+ataxia	1.0	5.0
+back pain	0.0	1.0
+backpain	0.0	2.0
+balance disorder	3.0	6.0
+cognitive decline	0.0	1.0
+constipation	0.0	4.0
+decreased appetite	0.0	1.0
+diplopia	1.0	10.0
+dizziness	8.0	20.0
+dysarthria	0.0	4.0
+fall	2.0	2.0
+fatigue	3.0	11.0
+gait disturbance	1.0	6.0
+headache	1.0	2.0
+headaches	1.0	2.0
+hyperreflexia	0.0	2.0
+nausea	0.0	4.0
+none	23.0	4.0
+somnolence	5.0	21.0
+uri	4.0	0.0
+vertigo	1.0	2.0
+vomiting	0.0	3.0
+weakness in left arm and leg	0.0	1.0

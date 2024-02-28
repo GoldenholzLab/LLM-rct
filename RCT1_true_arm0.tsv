@@ -1,0 +1,120 @@
+0	0	12.0	10.0	somnolence, upper respiratory infection
+1	0	8.0	42.0	somnolence
+2	0	17.0	45.0	no symptoms
+3	0	14.0	23.0	upper respiratory infection
+4	0	13.0	30.0	no symptoms
+5	0	113.0	132.0	balance disorder
+6	0	59.0	216.0	no symptoms
+7	0	5.0	12.0	no symptoms
+8	0	3.0	13.0	no symptoms
+9	0	5.0	13.0	fatigue
+20	0	32.0	165.0	dizziness
+21	0	10.0	17.0	no symptoms
+22	0	21.0	29.0	no symptoms
+23	0	6.0	65.0	upper respiratory infection
+24	0	11.0	18.0	dizziness, upper respiratory infection
+25	0	43.0	23.0	dizziness, somnolence
+26	0	12.0	15.0	no symptoms
+27	0	18.0	15.0	dizziness, upper respiratory infection
+28	0	41.0	79.0	no symptoms
+29	0	12.0	17.0	back pain
+40	0	10.0	20.0	no symptoms
+41	0	4.0	8.0	somnolence
+42	0	12.0	20.0	fatigue, balance disorder
+43	0	7.0	51.0	dizziness
+44	0	16.0	18.0	dizziness, somnolence
+45	0	12.0	27.0	no symptoms
+46	0	10.0	14.0	no symptoms
+47	0	9.0	9.0	dizziness
+48	0	18.0	33.0	fatigue
+49	0	19.0	27.0	somnolence, fatigue, upper respiratory infection
+60	0	5.0	6.0	no symptoms
+61	0	18.0	15.0	no symptoms
+62	0	21.0	29.0	no symptoms
+63	0	17.0	170.0	fall
+64	0	17.0	30.0	no symptoms
+65	0	5.0	16.0	ataxia, gait disturbance
+66	0	23.0	39.0	no symptoms
+67	0	49.0	43.0	dizziness
+68	0	13.0	21.0	no symptoms
+69	0	18.0	14.0	fall
+80	0	17.0	46.0	no symptoms
+81	0	94.0	54.0	vertigo, headaches
+82	0	12.0	21.0	decreased appetite
+83	0	9.0	128.0	no symptoms
+84	0	58.0	33.0	no symptoms
+85	0	55.0	89.0	no symptoms
+86	0	4.0	42.0	no symptoms
+87	0	10.0	16.0	no symptoms
+88	0	14.0	16.0	no symptoms
+89	0	3.0	16.0	no symptoms
+100	0	32.0	60.0	somnolence, balance disorder
+101	0	183.0	188.0	no symptoms
+102	0	195.0	344.0	dizziness
+103	0	9.0	16.0	no symptoms
+104	0	5.0	9.0	balance disorder
+105	0	18.0	20.0	no symptoms
+106	0	13.0	22.0	balance disorder
+107	0	12.0	33.0	headaches
+108	0	58.0	26.0	no symptoms
+109	0	15.0	4.0	no symptoms
+120	0	2	12	fatigue, diplopia
+121	0	17	16	upper respiratory infection
+122	0	13	35	no symptoms
+123	0	14	18	dizziness, balance disorder
+124	0	31	128	dizziness, headaches
+125	0	4	11	fall
+126	0	46	47	no symptoms
+127	0	4	10	no symptoms
+128	0	13	18	no symptoms
+129	0	24	42	vertigo
+140	0	14	7	no symptoms
+141	0	8	29	balance disorder
+142	0	9	24	somnolence
+143	0	15	22	balance disorder
+144	0	17	31	no symptoms
+145	0	12	10	no symptoms
+146	0	27	26	upper respiratory infection
+147	0	9	17	no symptoms
+148	0	103	61	dizziness, fall
+149	0	86	108	balance disorder
+160	0	14	14	somnolence
+161	0	42	76	gait disturbance
+162	0	24	82	somnolence
+163	0	32	81	no symptoms
+164	0	3	12	no symptoms
+165	0	49	38	no symptoms
+166	0	15	37	dizziness
+167	0	13	25	headaches
+168	0	10	8	no symptoms
+169	0	6	7	fatigue
+180	0	12	18	no symptoms
+181	0	13	29	no symptoms
+182	0	11	8	gait disturbance
+183	0	144	63	dizziness
+184	0	9	24	dizziness
+185	0	14	27	no symptoms
+186	0	6	17	vertigo, fall, headaches
+187	0	14	15	dizziness
+188	0	58	43	somnolence
+189	0	60	58	no symptoms
+200	0	28	19	dizziness
+201	0	24	35	no symptoms
+202	0	5	3	no symptoms
+203	0	15	64	no symptoms
+204	0	5	8	no symptoms
+205	0	70	47	fatigue, upper respiratory infection
+206	0	2	9	dizziness, somnolence
+207	0	34	118	no symptoms
+208	0	7	14	nystagmus, upper respiratory infection
+209	0	19	120	dizziness
+220	0	9	17	no symptoms
+221	0	27	15	somnolence
+222	0	8	17	no symptoms
+223	0	65	75	fatigue
+224	0	82	141	no symptoms
+225	0	1	11	fall
+226	0	40	143	diplopia
+227	0	61	66	no symptoms
+228	0	18	50	no symptoms
+229	0	8	26	no symptoms

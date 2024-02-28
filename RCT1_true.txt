@@ -1,0 +1,240 @@
+0	0	12.0	10.0	somnolence, upper respiratory infection
+1	0	8.0	42.0	somnolence
+2	0	17.0	45.0	no symptoms
+3	0	14.0	23.0	upper respiratory infection
+4	0	13.0	30.0	no symptoms
+5	0	113.0	132.0	balance disorder
+6	0	59.0	216.0	no symptoms
+7	0	5.0	12.0	no symptoms
+8	0	3.0	13.0	no symptoms
+9	0	5.0	13.0	fatigue
+20	0	32.0	165.0	dizziness
+21	0	10.0	17.0	no symptoms
+22	0	21.0	29.0	no symptoms
+23	0	6.0	65.0	upper respiratory infection
+24	0	11.0	18.0	dizziness, upper respiratory infection
+25	0	43.0	23.0	dizziness, somnolence
+26	0	12.0	15.0	no symptoms
+27	0	18.0	15.0	dizziness, upper respiratory infection
+28	0	41.0	79.0	no symptoms
+29	0	12.0	17.0	back pain
+40	0	10.0	20.0	no symptoms
+41	0	4.0	8.0	somnolence
+42	0	12.0	20.0	fatigue, balance disorder
+43	0	7.0	51.0	dizziness
+44	0	16.0	18.0	dizziness, somnolence
+45	0	12.0	27.0	no symptoms
+46	0	10.0	14.0	no symptoms
+47	0	9.0	9.0	dizziness
+48	0	18.0	33.0	fatigue
+49	0	19.0	27.0	somnolence, fatigue, upper respiratory infection
+60	0	5.0	6.0	no symptoms
+61	0	18.0	15.0	no symptoms
+62	0	21.0	29.0	no symptoms
+63	0	17.0	170.0	fall
+64	0	17.0	30.0	no symptoms
+65	0	5.0	16.0	ataxia, gait disturbance
+66	0	23.0	39.0	no symptoms
+67	0	49.0	43.0	dizziness
+68	0	13.0	21.0	no symptoms
+69	0	18.0	14.0	fall
+80	0	17.0	46.0	no symptoms
+81	0	94.0	54.0	vertigo, headaches
+82	0	12.0	21.0	decreased appetite
+83	0	9.0	128.0	no symptoms
+84	0	58.0	33.0	no symptoms
+85	0	55.0	89.0	no symptoms
+86	0	4.0	42.0	no symptoms
+87	0	10.0	16.0	no symptoms
+88	0	14.0	16.0	no symptoms
+89	0	3.0	16.0	no symptoms
+100	0	32.0	60.0	somnolence, balance disorder
+101	0	183.0	188.0	no symptoms
+102	0	195.0	344.0	dizziness
+103	0	9.0	16.0	no symptoms
+104	0	5.0	9.0	balance disorder
+105	0	18.0	20.0	no symptoms
+106	0	13.0	22.0	balance disorder
+107	0	12.0	33.0	headaches
+108	0	58.0	26.0	no symptoms
+109	0	15.0	4.0	no symptoms
+120	0	2	12	fatigue, diplopia
+121	0	17	16	upper respiratory infection
+122	0	13	35	no symptoms
+123	0	14	18	dizziness, balance disorder
+124	0	31	128	dizziness, headaches
+125	0	4	11	fall
+126	0	46	47	no symptoms
+127	0	4	10	no symptoms
+128	0	13	18	no symptoms
+129	0	24	42	vertigo
+140	0	14	7	no symptoms
+141	0	8	29	balance disorder
+142	0	9	24	somnolence
+143	0	15	22	balance disorder
+144	0	17	31	no symptoms
+145	0	12	10	no symptoms
+146	0	27	26	upper respiratory infection
+147	0	9	17	no symptoms
+148	0	103	61	dizziness, fall
+149	0	86	108	balance disorder
+160	0	14	14	somnolence
+161	0	42	76	gait disturbance
+162	0	24	82	somnolence
+163	0	32	81	no symptoms
+164	0	3	12	no symptoms
+165	0	49	38	no symptoms
+166	0	15	37	dizziness
+167	0	13	25	headaches
+168	0	10	8	no symptoms
+169	0	6	7	fatigue
+180	0	12	18	no symptoms
+181	0	13	29	no symptoms
+182	0	11	8	gait disturbance
+183	0	144	63	dizziness
+184	0	9	24	dizziness
+185	0	14	27	no symptoms
+186	0	6	17	vertigo, fall, headaches
+187	0	14	15	dizziness
+188	0	58	43	somnolence
+189	0	60	58	no symptoms
+200	0	28	19	dizziness
+201	0	24	35	no symptoms
+202	0	5	3	no symptoms
+203	0	15	64	no symptoms
+204	0	5	8	no symptoms
+205	0	70	47	fatigue, upper respiratory infection
+206	0	2	9	dizziness, somnolence
+207	0	34	118	no symptoms
+208	0	7	14	nystagmus, upper respiratory infection
+209	0	19	120	dizziness
+220	0	9	17	no symptoms
+221	0	27	15	somnolence
+222	0	8	17	no symptoms
+223	0	65	75	fatigue
+224	0	82	141	no symptoms
+225	0	1	11	fall
+226	0	40	143	diplopia
+227	0	61	66	no symptoms
+228	0	18	50	no symptoms
+229	0	8	26	no symptoms
+10	1	43.0	23.0	fatigue
+11	1	44.0	18.0	dizziness, ataxia, gait disturbance
+12	1	6.0	3.0	ataxia
+13	1	11.0	4.0	somnolence, fatigue, constipation, vomiting, fall
+14	1	13.0	22.0	somnolence, fatigue, vomiting
+15	1	43.0	76.0	dizziness, somnolence
+16	1	14.0	8.0	balance disorder
+17	1	221.0	128.0	back pain
+18	1	11.0	9.0	dizziness, somnolence, fall, gait disturbance
+19	1	21.0	19.0	fatigue, diplopia
+30	1	6.0	6.0	dizziness, somnolence
+31	1	8.0	7.0	dizziness
+32	1	6.0	9.0	dizziness
+33	1	22.0	12.0	dizziness, headaches, diplopia
+34	1	22.0	12.0	dizziness, somnolence, dysarthria
+35	1	14.0	10.0	somnolence, diplopia
+36	1	27.0	14.0	no symptoms
+37	1	33.0	29.0	dizziness, somnolence, vertigo
+38	1	22.0	25.0	dizziness, ataxia
+39	1	18.0	18.0	fatigue, balance disorder
+50	1	28.0	23.0	dizziness, fatigue, nausea, balance disorder
+51	1	48.0	155.0	decreased appetite
+52	1	19.0	10.0	dizziness, gait disturbance
+53	1	78.0	34.0	no symptoms
+54	1	14.0	3.0	dizziness, constipation, nystagmus, headaches, gait disturbance
+55	1	8.0	3.0	dysarthria, diplopia
+56	1	5.0	11.0	dizziness, somnolence
+57	1	28.0	17.0	somnolence, back pain
+58	1	15.0	23.0	somnolence, balance disorder, back pain, gait disturbance
+59	1	11.0	6.0	ataxia
+70	1	74.0	25.0	somnolence
+71	1	32.0	13.0	dizziness, somnolence
+72	1	13.0	7.0	constipation
+73	1	18.0	17.0	dizziness, fatigue, vomiting, headaches
+74	1	11.0	9.0	no symptoms
+75	1	12.0	5.0	somnolence
+76	1	10.0	2.0	fatigue, headaches, diplopia
+77	1	5.0	2.0	dizziness, gait disturbance
+78	1	59.0	29.0	headaches
+79	1	16.0	4.0	somnolence, headaches
+90	1	13.0	7.0	ataxia
+91	1	16.0	6.0	somnolence, fatigue, ataxia
+92	1	9.0	8.0	dizziness
+93	1	20.0	15.0	somnolence, fatigue
+94	1	0.0	3.0	gait disturbance
+95	1	14.0	13.0	no symptoms
+96	1	59.0	25.0	no symptoms
+97	1	17.0	12.0	balance disorder
+98	1	7.0	3.0	dizziness, somnolence, fatigue, dysarthria, diplopia, gait disturbance
+99	1	55.0	33.0	constipation, diplopia
+110	1	69.0	30.0	somnolence, balance disorder
+111	1	30.0	16.0	somnolence, vomiting
+112	1	28.0	17.0	dizziness, nausea, ataxia, fall
+113	1	5.0	3.0	dizziness, fall
+114	1	6.0	12.0	dizziness, back pain, diplopia
+115	1	13.0	14.0	diplopia, decreased appetite
+116	1	16.0	18.0	somnolence, vomiting, diplopia
+117	1	19.0	9.0	fatigue
+118	1	14.0	11.0	somnolence, balance disorder, fall
+119	1	16.0	4.0	dizziness, vomiting
+130	1	13	9	fatigue, ataxia, gait disturbance
+131	1	1	3	somnolence, fatigue, diplopia
+132	1	22	17	somnolence, diplopia
+133	1	5	11	dizziness, somnolence, constipation, ataxia
+134	1	96	52	dizziness, constipation, ataxia, back pain
+135	1	10	0	diplopia
+136	1	22	16	somnolence, nausea, balance disorder
+137	1	13	13	dizziness, somnolence, headaches
+138	1	208	81	somnolence, fatigue, vomiting, diplopia
+139	1	20	11	somnolence, nausea, fall
+150	1	11	4	somnolence, dysarthria, headaches
+151	1	32	65	dizziness, nystagmus, diplopia, gait disturbance
+152	1	53	27	dizziness, diplopia
+153	1	7	12	dizziness, somnolence, fatigue
+154	1	16	18	dizziness, somnolence, dysarthria
+155	1	89	89	gait disturbance
+156	1	18	14	diplopia
+157	1	22	18	somnolence
+158	1	4	5	dizziness, somnolence, fatigue, balance disorder, vertigo
+159	1	58	42	dizziness
+170	1	8	12	somnolence, back pain, diplopia
+171	1	7	1	somnolence, fatigue, diplopia
+172	1	24	22	dizziness, somnolence, balance disorder, dysarthria, gait disturbance
+173	1	18	18	dizziness, somnolence, fatigue
+174	1	7	9	balance disorder
+175	1	18	9	dizziness
+176	1	8	16	diplopia
+177	1	9	3	fatigue
+178	1	44	13	dizziness, somnolence, fatigue, diplopia
+179	1	113	98	no symptoms
+190	1	10	17	no symptoms
+191	1	15	2	somnolence, constipation
+192	1	3	15	no symptoms
+193	1	15	14	somnolence
+194	1	12	8	somnolence, ataxia, gait disturbance
+195	1	16	27	dizziness, fatigue, gait disturbance
+196	1	4	6	somnolence
+197	1	29	22	somnolence, constipation, back pain
+198	1	8	15	dizziness
+199	1	14	26	dizziness, somnolence, constipation, balance disorder, vertigo
+210	1	3	8	somnolence, diplopia
+211	1	22	16	dizziness, somnolence, vertigo
+212	1	52	48	dizziness, fatigue
+213	1	34	33	dizziness, fatigue, vomiting, upper respiratory infection, diplopia
+214	1	10	3	dizziness, nausea
+215	1	15	19	somnolence, fatigue, gait disturbance
+216	1	15	13	dizziness, somnolence, back pain
+217	1	18	21	somnolence, fatigue, nausea, dysarthria, upper respiratory infection, gait disturbance
+218	1	13	7	dizziness, somnolence, nausea
+219	1	44	18	no symptoms
+230	1	13	5	balance disorder, headaches, decreased appetite
+231	1	11	3	balance disorder
+232	1	124	133	dizziness, somnolence
+233	1	11	16	dizziness
+234	1	5	17	nausea
+235	1	7	3	somnolence
+236	1	8	15	nausea, diplopia
+237	1	9	11	no symptoms
+238	1	7	4	decreased appetite
+239	1	7	19	vertigo

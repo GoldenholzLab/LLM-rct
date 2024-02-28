@@ -1,3 +1,21 @@
+# folders we dont need to copy
+backup/*
+
+# pictures
+###########
+*.png
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

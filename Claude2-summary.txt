@@ -1,0 +1,241 @@
+ID	arm	baseline_sz	test_sz	sx
+0	0	12	10	"somnolence, upper respiratory infection"
+1	0	8	42	somnolence
+2	0	17	0	None
+3	0	14	23	"mild cough, nasal congestion"
+4	0	13	30	None
+5	0	113	132	Balance disorder
+6	0	59	216	None
+7	0	5	12	None
+8	0	3	13	None
+9	0	5	13	Fatigue
+20	0	32	165	dizziness
+21	0	10	17	None
+22	0	21	29	None
+23	0	6	65	None
+24	0	Not specified	18	"dizziness, upper respiratory infection"
+25	0	43	23	"dizziness, somnolence"
+26	0	12	15	None
+27	0	18	15	"dizziness, upper respiratory infection"
+28	0	5	79	None
+29	0	12	17	"back pain, seizures (grand mal in nature), increased anxiety and depression symptoms"
+40	0	10	20	None
+41	0	4	0	somnolence
+42	0	12	20	"fatigue, balance disorder"
+43	0	7	51	dizziness
+44	0	16	18	"dizziness, somnolence"
+45	0	12	0	None
+46	0	10	14	None
+47	0	9	9	dizziness
+48	0	18	33	"Fatigue, increased seizure frequency"
+49	0	19	27	"somnolence, fatigue, upper respiratory infection"
+60	0	5	6	None
+61	0	18	15	None
+62	0	21	29	None
+63	0	17	170	fall
+64	0	17	30	"anxiety, depression, memory difficulty"
+65	0	5	16	"ataxia, gait disturbance, ADHD, anxiety, temporal lobe epilepsy"
+66	0	23	0	None
+67	0	49	43	dizziness
+68	0	13	21	None
+69	0	18	14	fall
+80	0	17	46	None
+81	0	94	54	"vertigo, headaches"
+82	0	12	0	"decreased appetite, depression, hypertension, generalized epilepsy"
+83	0	9	128	None
+84	0	58	33	None
+85	0	55	89	None
+86	0	4	42	"Autism, Hypertension, Multifocal Epilepsy"
+87	0	10	16	None
+88	0	14	16	None
+89	0	3	16	None
+100	0	32	60	"somnolence, balance disorder"
+101	0	183	0	"dermatitis, epilepsy"
+102	0	195	344	dizziness
+103	0	9	16	None
+104	0	5	9	"balance disorder, increased frequency of seizures, fatigue, nausea, difficulty with concentration, trouble sleeping at night"
+105	0	18	0	None
+106	0	13	22	"balance disorder, seizures"
+107	0	8	33	headaches
+108	0	58	26	None
+109	0	15	0	None
+120	0	2	12	"fatigue, diplopia"
+121	0	17	16	None
+122	0	13	0	None
+123	0	14	18	"dizziness, balance disorder"
+124	0	31	128	"dizziness, headaches"
+125	0	4	11	"mild tremors, slowed reaction time, slurred speech, difficulty with concentration and memory, fall"
+126	0	46	47	None
+127	0	4	10	"Anxiety, Depression"
+128	0	13	18	None
+129	0	24	42	"vertigo, multifocal epilepsy, frequent headaches, difficulty with memory and concentration, slight limb weakness on the right side of her body, decreased sensation to light touch and pinprick on the left side of her body"
+140	0	14	7	"anxiety, depression"
+141	0	8	29	"balance disorder, hypothyroidism, asthma, frontal lobe epilepsy"
+142	0	9	24	"somnolence, history of seizures"
+143	0	15	22	balance disorder
+144	0	17	31	None
+145	0	12	10	None
+146	0	27	26	Upper respiratory infection
+147	0	9	17	None
+148	0	103	61	"dizziness, fall"
+149	0	86	108	"balance disorder, ""brain fog"", persistent seizures"
+160	0	14	14	somnolence
+161	0	42	76	"gait disturbance, mild tremor in right hand, slightly weaker grip strength on right side, wide-based, unsteady gait with slight limp, difficulty maintaining balance and requires assistance with walking"
+162	0	24	82	"somnolence, depression, dermatitis"
+163	0	32	81	None
+164	0	3	12	None
+165	0	49	38	None
+166	0	15	37	dizziness
+167	0	13	25	headaches
+168	0	10	8	None
+169	0	6	7	fatigue
+180	0	12	0	None
+181	0	13	29	None
+182	0	11	8	"gait disturbance, difficulty walking short distances without assistance"
+183	0	144	63	dizziness
+184	0	9	24	"dizziness, vertigo"
+185	0	14	27	None
+186	0	6	17	"vertigo, falling, headaches"
+187	0	14	15	dizziness
+188	0	58	43	"somnolence, lethargy, progressive memory loss, difficulty concentrating"
+189	0	60	Not specified	seizures
+200	0	28	19	mild dizziness
+201	0	24	35	None
+202	0	5	3	None
+203	0	15	64	None
+204	0	5	8	None
+205	0	70	47	"fatigue, upper respiratory infection"
+206	0	2	9	"dizziness, somnolence"
+207	0	34	118	None
+208	0	7	14	nystagmus
+209	0	19	120	dizziness
+220	0	9	17	None
+221	0	27	15	somnolence
+222	0	8	17	None
+223	0	65	75	"anxiety, fatigue"
+224	0	82	141	None
+225	0	1	11	"diabetes, dermatitis, occipital lobe epilepsy, recent fall"
+226	0	40	143	diplopia
+227	0	61	66	None
+228	0	18	50	None
+229	0	8	26	None
+10	1	43	23	fatigue
+11	1	44	0	"dizziness, ataxia, gait disturbance"
+12	1	6	0	"ataxia, anxiety, parietal lobe epilepsy"
+13	1	11	4	"somnolence, fatigue, constipation, vomiting, fall"
+14	1	13	0	"somnolence, fatigue, vomiting"
+15	1	43	76	"dizziness, somnolence"
+16	1	14	8	"balance disorder, recent seizure activity"
+17	1	221	128	"back pain, mild weakness in left arm and leg, hyperreflexia, sensory deficits in L2, L3, and L4 dermatomes, difficulty with fine motor skills"
+18	1	11	9	"dizziness, somnolence, fall, gait disturbance"
+19	1	21	19	"fatigue, diplopia (double vision)"
+30	1	6	6	"seasonal allergies, dermatitis, autism, parietal lobe epilepsy"
+31	1	8	7	dizziness
+32	1	6	9	"Dizziness, increased seizure frequency while taking investigational drug"
+33	1	22	12	"dizziness, headaches, diplopia"
+34	1	22	12	"dizziness, somnolence, dysarthria"
+35	1	14	10	"somnolence, diplopia"
+36	1	27	14	None
+37	1	33	0	"dizziness, somnolence, vertigo"
+38	1	22	25	"Dizziness, Ataxia"
+39	1	18	18	"fatigue, balance difficulties, difficulty sleeping"
+50	1	28	23	"dizziness, fatigue, nausea, and balance disorder"
+51	1	48	155	decreased appetite and ongoing seizure activity
+52	1	19	10	"dizziness, gait disturbance"
+53	1	78	34	"generalized epilepsy, alcoholism, hypothyroidism"
+54	1	14	3	"dizziness, constipation, nystagmus, headaches, gait disturbance"
+55	1	8	3	"dysarthria, diplopia"
+56	1	5	11	"dizziness, somnolence"
+57	1	28	17	"somnolence, back pain"
+58	1	15	23	"somnolence, balance disorder, back pain, gait disturbance"
+59	1	11	6	ataxia
+70	1	74	25	"somnolence, mild tremors, rigidity"
+71	1	32	13	"dizziness, somnolence"
+72	1	13	7	constipation
+73	1	18	17	"dizziness, fatigue, vomiting, headaches"
+74	1	11	9	None
+75	1	12	5	"somnolence, decreased cognitive function, difficulty concentrating, memory issues"
+76	1	10	2	"fatigue, headaches, diplopia"
+77	1	Not specified	2	"dizziness, gait disturbance"
+78	1	59	29	headaches
+79	1	16	4	"somnolence, headaches, increased seizure activity"
+90	1	13	7	"ataxia, alcoholism, multifocal epilepsy"
+91	1	16	6	"somnolence, fatigue, ataxia"
+92	1	9	8	dizziness
+93	1	20	15	"somnolence, fatigue"
+94	1	0	3	"gait disturbance, mild weakness of the left facial muscles"
+95	1	14	13	None
+96	1	59	25	None
+97	1	17	12	"balance disorder, mild weakness in left arm and leg, sensory deficits in the form of hypesthesia (decreased sensation), negative Romberg test (indicates unsteadiness), positive Hoffmann's reflex (indicates increased muscle tone)"
+98	1	7	3	"dizziness, somnolence, fatigue, dysarthria, diplopia, gait disturbance"
+99	1	55	33	"constipation, diplopia"
+110	1	69	30	"somnolence, balance disorder"
+111	1	30	16	"somnolence, vomiting"
+112	1	28	17	"dizziness, nausea, ataxia, falling on multiple occasions"
+113	1	5	3	"difficulty with memory and concentration, feeling ""spacey"" at times, experiencing visual disturbances"
+114	1	6	12	"dizziness, back pain, diplopia"
+115	1	13	14	"diplopia, decreased appetite"
+116	1	16	18	"somnolence, vomiting, diplopia"
+117	1	19	0	"fatigue, sleep disturbances"
+118	1	14	11	"somnolence, balance disorder, fall, occasional headaches, dizziness"
+119	1	16	4	"dizziness and vomiting during these seizures, ongoing symptoms of depression, asthma, and epilepsy"
+130	1	13	9	"fatigue, ataxia, gait disturbance"
+131	1	1	3	"seasonal allergies, depression, diplopia"
+132	1	22	17	"somnolence, diplopia"
+133	1	5	11	"dizziness, somnolence, constipation, ataxia"
+134	1	96	52	"dizziness, constipation, ataxia, back pain"
+135	1	10	0	diplopia
+136	1	22	16	"somnolence, nausea, balance disorder"
+137	1	13	13	"dizziness, somnolence, headaches"
+138	1	208	81	"somnolence, fatigue, vomiting, diplopia"
+139	1	20	11	"somnolence, nausea, fall, difficulty concentrating, memory issues."
+150	1	11	0	"somnolence, dysarthria, headaches"
+151	1	32	65	"dizziness, nystagmus, diplopia, gait disturbance"
+152	1	53	27	"dizziness, diplopia"
+153	1	7	12	"dizziness, somnolence, fatigue"
+154	1	16	18	"dizziness, somnolence, dysarthria"
+155	1	89	89	Gait disturbance
+156	1	18	14	Diplopia (new)
+157	1	22	18	"increased somnolence, ataxia"
+158	1	4	5	"dizziness, somnolence, fatigue, balance disorder, vertigo"
+159	1	58	42	Dizziness
+170	1	8	12	"somnolence, diplopia"
+171	1	7	1	"somnolence, fatigue, diplopia"
+172	1	24	22	"dizziness, somnolence, balance disorder, dysarthria, gait disturbance"
+173	1	18	18	"dizziness, somnolence, fatigue"
+174	1	7	9	"balance disorder, recent seizures"
+175	1	18	9	"dizziness, occasional seizures"
+176	1	8	16	diplopia
+177	1	9	3	"fatigue, seizures"
+178	1	44	13	"dizziness, somnolence, fatigue, diplopia"
+179	1	113	98	none reported
+190	1	10	17	None reported
+191	1	15	0	"somnolence, constipation"
+192	1	3	15	None reported
+193	1	15	14	somnolence
+194	1	12	8	"somnolence, ataxia, gait disturbance"
+195	1	16	27	"dizziness, fatigue, gait disturbance"
+196	1	4	6	"somnolence, seizures"
+197	1	29	22	"somnolence, constipation, back pain"
+198	1	8	15	dizziness
+199	1	14	26	"dizziness, somnolence, constipation, balance disorder, vertigo"
+210	1	3	8	"somnolence, diplopia"
+211	1	22	16	"dizziness, somnolence, vertigo"
+212	1	52	48	"dizziness, fatigue"
+213	1	34	0	"dizziness, fatigue, vomiting, upper respiratory infection, diplopia"
+214	1	10	3	"dizziness, nausea"
+215	1	15	19	"somnolent, fatigued, gait disturbance, slow and slurred speech, droopy eyes, rigid neck, limp arms and legs, decreased muscle tone, diminished reflexes, difficulty with rapid alternating movements, compromised coordination and balance."
+216	1	15	13	"dizziness, somnolence, back pain"
+217	1	18	21	"somnolence, fatigue, nausea, dysarthria, upper respiratory infection, gait disturbance"
+218	1	13	7	"dizziness, somnolence, nausea"
+219	1	44	18	"schizophrenia, frontal lobe epilepsy"
+230	1	13	5	"balance disorders, headaches, decreased appetite"
+231	1	11	3	"balance disorder, history of occipital lobe epilepsy"
+232	1	124	133	"dizziness, somnolence"
+233	1	11	16	dizziness
+234	1	5	17	mild nausea
+235	1	7	3	somnolence reported by the patient
+236	1	8	15	"nausea, diplopia"
+237	1	9	11	no reported symptoms.
+238	1	7	4	decreased appetite
+239	1	7	19	"vertigo, worsening of seasonal allergies and ADHD symptoms, dizziness"

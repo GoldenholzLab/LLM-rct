@@ -1,0 +1,21 @@
+	arm0	arm1
+ataxia	0.0	5.0
+back pain	0.0	3.0
+balance disorder	4.0	6.0
+constipation	0.0	4.0
+decreased appetite	0.0	2.0
+diplopia	1.0	10.0
+dizziness	8.0	20.0
+dysarthria	0.0	3.0
+fall	2.0	2.0
+fatigue	3.0	11.0
+gait disturbance	1.0	7.0
+headaches	2.0	4.0
+nausea	0.0	4.0
+none	24.0	4.0
+nystagmus	0.0	1.0
+somnolence	5.0	22.0
+upper respiratory infection	2.0	1.0
+uri	2.0	0.0
+vertigo	1.0	2.0
+vomiting	0.0	3.0

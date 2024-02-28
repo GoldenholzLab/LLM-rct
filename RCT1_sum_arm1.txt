@@ -1,0 +1,1697 @@
+ID - 10
+Visit - 1
+Arm - 1
+
+num_seizures: 43
+symptoms: mild side effects (headaches, fatigue)
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 10
+Visit - 2
+Arm - 1
+
+num\_seizures: 23.0
+symptoms: fatigue
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 11
+Visit - 1
+Arm - 1
+
+num\_seizures - 44
+symptoms - increased seizure frequency, no significant triggers or warning signs.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 11
+Visit - 2
+Arm - 1
+
+num_seizures: 0
+symptoms: dizziness, ataxia, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 12
+Visit - 1
+Arm - 1
+
+Patient ID 12 -- VISIT 1 -----------
+
+87 year old female with anxiety and parietal lobe epilepsy, had 6.0 seizures in past 2 months. No change in seizure frequency or severity, patient reports no side effects from current medications. Add investigational drug for epilepsy for 3 months, closely monitor patient for any changes in seizure frequency, severity, or side effects, follow up in 2 weeks to assess effectiveness of new medication and make any necessary adjustments.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 12
+Visit - 2
+Arm - 1
+
+num_seizures - 0 (since last visit)
+symptoms - ataxia, anxiety, parietal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 13
+Visit - 1
+Arm - 1
+
+num_seizures: 11
+symptoms: epilepsy, schizophrenia, ADHD
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 13
+Visit - 2
+Arm - 1
+
+num\_seizures - 4.0
+symptoms - somnolence, fatigue, constipation, vomiting, fall
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 14
+Visit - 1
+Arm - 1
+
+num_seizures - 13.0
+symptoms - increased frequency of seizures due to parietal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 14
+Visit - 2
+Arm - 1
+
+num_seizures: 0
+symptoms: somnolence, fatigue, vomiting
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 15
+Visit - 1
+Arm - 1
+
+num\_seizures: 43
+symptoms: epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 15
+Visit - 2
+Arm - 1
+
+num\_seizures: 76.0
+symptoms: dizziness, somnolence
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 16
+Visit - 1
+Arm - 1
+
+num_seizures: 14
+symptoms: None reported.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 16
+Visit - 2
+Arm - 1
+
+num_seizures - 8.0
+symptoms - balance disorder, recent seizure activity
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 17
+Visit - 1
+Arm - 1
+
+Patient ID 17 -- VISIT 1 -----------
+
+num_seizures - 221.0 seizures since last visit
+symptoms - history of ADHD, schizophrenia, and frontal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 17
+Visit - 2
+Arm - 1
+
+num_seizures - 128.0
+symptoms - back pain, mild weakness in left arm and leg, hyperreflexia, sensory deficits in L2, L3, and L4 dermatomes, difficulty with fine motor skills.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 18
+Visit - 1
+Arm - 1
+
+num_seizures: 11.0
+symptoms: ADHD, hypothyroidism, autism, generalized epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 18
+Visit - 2
+Arm - 1
+
+num\_seizures - 9.0 seizures since last visit
+symptoms - dizziness, somnolence, fall, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 19
+Visit - 1
+Arm - 1
+
+num_seizures: 21.0
+symptoms: dermatitis, temporal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 19
+Visit - 2
+Arm - 1
+
+num_seizures: 19.0
+symptoms: fatigue, diplopia (double vision)
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 30
+Visit - 1
+Arm - 1
+
+num\_seizures: 6.0
+symptoms: None reported.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 30
+Visit - 2
+Arm - 1
+
+num_seizures - 6.0
+symptoms - seasonal allergies, dermatitis, autism, parietal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 31
+Visit - 1
+Arm - 1
+
+num_seizures: 8.0
+symptoms: None reported.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 31
+Visit - 2
+Arm - 1
+
+num_seizures - 7.0
+symptoms - dizziness
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 32
+Visit - 1
+Arm - 1
+
+num\_seizures - 6.0
+symptoms - increase in seizure frequency, associated with stress due to work-related reasons
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 32
+Visit - 2
+Arm - 1
+
+Patient ID 32 -- VISIT 2 -----------
+- Seizure Count: 9.0 in past 3 months (while taking investigational drug)
+- Symptoms: Dizziness, increased seizure frequency while taking investigational drug
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 33
+Visit - 1
+Arm - 1
+
+num\_seizures: 22.0
+symptoms: hypertension, generalized epilepsy, mild tremor in hands, weakness of left gaze
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 33
+Visit - 2
+Arm - 1
+
+num_seizures: 12.0
+symptoms: dizziness, headaches, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 34
+Visit - 1
+Arm - 1
+
+num_seizures: 22
+symptoms: depression, schizophrenia, hypertension, temporal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 34
+Visit - 2
+Arm - 1
+
+num\_seizures - 12.0
+symptoms - dizziness, somnolence, dysarthria
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 35
+Visit - 1
+Arm - 1
+
+num_seizures: 14.0
+symptoms: numbness in left hand
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 35
+Visit - 2
+Arm - 1
+
+Patient ID 35 had 10 seizures in the past 3 months since his last visit, despite taking an investigational drug for temporal lobe epilepsy. He also reported somnolence and diplopia as side effects of the medication. The patient has a history of ADHD and temporal lobe epilepsy, and it is possible that his symptoms are related to the investigational drug or another underlying condition. The plan includes discontinuing the investigational drug, re-initiating Vyvanse for ADHD medication, monitoring symptoms and seizure activity closely, considering a referral to an ophthalmologist for diplopia evaluation, and educating the patient on potential side effects of ADHD medications and adherence to medication regimen.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 36
+Visit - 1
+Arm - 1
+
+num\_seizures: 27.0
+symptoms: seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 36
+Visit - 2
+Arm - 1
+
+num\_seizures - 14.0 seizures over 3 months
+symptoms - no current symptoms reported
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 37
+Visit - 1
+Arm - 1
+
+num\_seizures: 33
+symptoms: None reported.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 37
+Visit - 2
+Arm - 1
+
+num_seizures: 0
+symptoms: dizziness, somnolence, vertigo
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 38
+Visit - 1
+Arm - 1
+
+num_seizures - 22
+symptoms - schizophrenia, seasonal allergies, epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 38
+Visit - 2
+Arm - 1
+
+num\_seizures - 25.0 seizures over past 3 months
+symptoms - Dizziness, Ataxia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 39
+Visit - 1
+Arm - 1
+
+num\_seizures: 18
+symptoms: temporal lobe epilepsy with increased frequency and severity, difficulty with concentration and memory
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 39
+Visit - 2
+Arm - 1
+
+num\_seizures - 18
+symptoms - fatigue, balance difficulties, difficulty sleeping
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 50
+Visit - 1
+Arm - 1
+
+num_seizures: 28
+symptoms: temporal lobe epilepsy, participating in a randomized controlled trial
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 50
+Visit - 2
+Arm - 1
+
+Patient ID 50 had 23.0 seizures in the past 3 months while taking investigational drug ID X93461 for epilepsy. The patient reported symptoms of dizziness, fatigue, nausea, and balance disorder.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 51
+Visit - 1
+Arm - 1
+
+num_seizures: 48
+symptoms: mild right facial weakness, decreased sensation to light touch and pinprick over the left hemiparesis
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 51
+Visit - 2
+Arm - 1
+
+num\_seizures - 155.0 seizures over the past 3 months while taking investigational drug ID X93461 for epilepsy.
+
+symptoms - decreased appetite and ongoing seizure activity despite discontinuation of the investigational drug, no significant changes in neurological examination or laboratory results since previous visit.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 52
+Visit - 1
+Arm - 1
+Patient ID 52 has experienced 19 seizures in the past two months.
+Symptoms reported by the patient include no focal deficits, altered consciousness, clear and coherent speech, intact gross motor function, and no significant impairment in cognitive abilities.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 52
+Visit - 2
+Arm - 1
+
+num_seizures: 10.0
+symptoms: dizziness, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 53
+Visit - 1
+Arm - 1
+
+num_seizures: 78
+symptoms: increased fatigue and weakness, occasional partial seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 53
+Visit - 2
+Arm - 1
+
+num_seizures: 34.0
+
+symptoms: generalized epilepsy, alcoholism, hypothyroidism
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 54
+Visit - 1
+Arm - 1
+
+num\_seizures - 14.0 in past 2 months
+symptoms - No specific symptoms were reported in the clinic note.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 54
+Visit - 2
+Arm - 1
+
+num\_seizures: 3.0
+symptoms: dizziness, constipation, nystagmus, headaches, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 55
+Visit - 1
+Arm - 1
+
+num\_seizures: 8.0
+symptoms: ongoing joint pain and stiffness
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 55
+Visit - 2
+Arm - 1
+
+num_seizures: 3.0
+symptoms: dysarthria, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 56
+Visit - 1
+Arm - 1
+
+num\_seizures - 5.0 seizures in the past two months
+symptoms - memory difficulties, frequent and severe seizures, anxiety, nightmares related to seizures, increased risk of falls
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 56
+Visit - 2
+Arm - 1
+
+num_seizures: 11.0
+symptoms: dizziness, somnolence
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 57
+Visit - 1
+Arm - 1
+
+num_seizures: 28
+symptoms: mild cognitive decline, increased frequency of seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 57
+Visit - 2
+Arm - 1
+
+num\_seizures - 17.0
+symptoms - somnolence, back pain
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 58
+Visit - 1
+Arm - 1
+
+num\_seizures - 15.0
+symptoms - increased seizure activity, no change in medications other than investigational drug for epilepsy as part of a randomized controlled trial.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 58
+Visit - 2
+Arm - 1
+
+num_seizures: 23
+symptoms: somnolence, balance disorder, back pain, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 59
+Visit - 1
+Arm - 1
+
+num_seizures - 11
+symptoms - generalized epilepsy, increased frequency of seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 59
+Visit - 2
+Arm - 1
+
+num_seizures: 6.0
+symptoms: ataxia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 70
+Visit - 1
+Arm - 1
+
+num\_seizures - 74
+symptoms - increased frequency of seizures, increase in intensity of seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 70
+Visit - 2
+Arm - 1
+
+num_seizures: 25.0
+symptoms: somnolence, mild tremors, rigidity
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 71
+Visit - 1
+Arm - 1
+Patient ID 71 -- VISIT 1 -----------
+num_seizures - 32 seizures in past 2 months
+symptoms - None reported
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 71
+Visit - 2
+Arm - 1
+
+num_seizures: 13
+symptoms: dizziness, somnolence
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 72
+Visit - 1
+Arm - 1
+
+num\_seizures: 13.0
+symptoms: frequent seizures, difficulty with memory and concentration
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 72
+Visit - 2
+Arm - 1
+
+num_seizures - 7.0, symptoms - constipation.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 73
+Visit - 1
+Arm - 1
+
+num\_seizures: 18.0
+symptoms: worsening seizure activity, occasional diplopia (double vision) during seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 73
+Visit - 2
+Arm - 1
+
+Patient ID 73 has had 17 seizures in the past 3 months, and reported symptoms of dizziness, fatigue, vomiting, and headaches during a neurological examination. The patient is being monitored for seizure activity and will be prescribed anticonvulsants as needed to address their symptoms. A follow-up appointment is scheduled in 2 weeks.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 74
+Visit - 1
+Arm - 1
+
+num_seizures: 11.0
+symptoms: temporal lobe epilepsy with increased seizure frequency, hypertension, diabetes, depression
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 74
+Visit - 2
+Arm - 1
+
+num\_seizures: 9.0
+symptoms: No symptoms reported
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 75
+Visit - 1
+Arm - 1
+
+num\_seizures: 12.0
+symptoms: None reported.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 75
+Visit - 2
+Arm - 1
+
+num\_seizures - 5.0 seizures since last visit
+symptoms - somnolence, decreased cognitive function, difficulty concentrating, memory issues
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 76
+Visit - 1
+Arm - 1
+
+num\_seizures - 10.0 seizures in past 2 months
+symptoms - confusion, disorientation, memory recall difficulties, word-finding difficulties
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 76
+Visit - 2
+Arm - 1
+
+num\_seizures: 2.0
+symptoms: fatigue, headaches, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 77
+Visit - 1
+Arm - 1
+
+num_seizures: 2 months since last visit
+symptoms: none reported
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 77
+Visit - 2
+Arm - 1
+
+num_seizures: 2
+symptoms: dizziness, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 78
+Visit - 1
+Arm - 1
+
+num_seizures: 59.0
+symptoms: mild tremor in hands, no new or unusual symptoms
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 78
+Visit - 2
+Arm - 1
+
+num_seizures: 29.0
+symptoms: headaches
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 79
+Visit - 1
+Arm - 1
+
+num_seizures: 16.0
+symptoms: ADHD, dermatitis, temporal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 79
+Visit - 2
+Arm - 1
+
+num\_seizures = 4.0
+symptoms = ["somnolence", "headaches", "increased seizure activity"]
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 90
+Visit - 1
+Arm - 1
+
+Patient ID: 90
+Visit #1: 2022-02-17
+
+* 96 year old male
+* History of ADHD, alcoholism, multifocal epilepsy
+* 13 seizures in past 2 months
+* Randomized controlled trial (RCT)
+
+Symptoms: seizures
+num\_seizures: 13
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 90
+Visit - 2
+Arm - 1
+
+num_seizures: 7
+symptoms: ataxia, alcoholism, multifocal epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 91
+Visit - 1
+Arm - 1
+
+num_seizures: 16
+symptoms: bipolar disorder, occipital lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 91
+Visit - 2
+Arm - 1
+
+num_seizures: 6
+symptoms: somnolence, fatigue, ataxia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 92
+Visit - 1
+Arm - 1
+
+num_seizures: 9.0
+symptoms: recurrent seizures, recent increase in frequency
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 92
+Visit - 2
+Arm - 1
+
+num\_seizures - 8.0 seizures since last visit
+symptoms - dizziness
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 93
+Visit - 1
+Arm - 1
+
+num_seizures: 20.0
+symptoms: increased frequency of seizures, average of 2-3 per week
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 93
+Visit - 2
+Arm - 1
+
+* num\_seizures: 15
+* symptoms: somnolence, fatigue
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 94
+Visit - 1
+Arm - 1
+
+num\_seizures - 0
+symptoms - fatigue
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 94
+Visit - 2
+Arm - 1
+
+num\_seizures - 3.0
+symptoms - gait disturbance, mild weakness of the left facial muscles
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 95
+Visit - 1
+Arm - 1
+
+num_seizures: 14.0
+symptoms: increased tremors in hands and feet, clear speech, no noticeable deficits in cognitive function, euthymic mood, no suicidal or homicidal ideation, normal vital signs, no abnormalities in head, eyes, ears, nose, throat, skin, normal neurological reflexes, within normal limits muscle strength and tone.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 95
+Visit - 2
+Arm - 1
+
+num\_seizures: 13.0
+symptoms: None reported.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 96
+Visit - 1
+Arm - 1
+
+num\_seizures - 59.0
+symptoms - confusion, disorientation during seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 96
+Visit - 2
+Arm - 1
+
+num_seizures: 25.0
+symptoms: None reported during visit #2
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 97
+Visit - 1
+Arm - 1
+
+num\_seizures - 17.0 seizures in the past two months
+symptoms - frequent seizures, cognitive difficulties (memory lapses and difficulty with concentration), mood changes (irritability and anxiety)
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 97
+Visit - 2
+Arm - 1
+
+num_seizures: 12.0 (over past 3 months)
+symptoms: balance disorder, mild weakness in left arm and leg, sensory deficits in the form of hypesthesia (decreased sensation), negative Romberg test (indicates unsteadiness), positive Hoffmann's reflex (indicates increased muscle tone).
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 98
+Visit - 1
+Arm - 1
+
+num_seizures: 7
+symptoms: None reported.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 98
+Visit - 2
+Arm - 1
+
+num_seizures: 3.0
+symptoms: dizziness, somnolence, fatigue, dysarthria, diplopia, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 99
+Visit - 1
+Arm - 1
+
+num_seizures: 55
+symptoms: seizures per day, no change in seizure activity since last visit
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 99
+Visit - 2
+Arm - 1
+
+num_seizures: 33
+symptoms: constipation, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 110
+Visit - 1
+Arm - 1
+
+num_seizures: 69.0
+symptoms: seasonal allergies, anxiety, parietal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 110
+Visit - 2
+Arm - 1
+
+num_seizures - 30.0
+symptoms - somnolence, balance disorder
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 111
+Visit - 1
+Arm - 1
+
+Patient ID 111 -- Visit 1
+
+num_seizures: 30
+symptoms: increased seizure activity, more frequent and intense auras preceding seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 111
+Visit - 2
+Arm - 1
+
+num_seizures: 16.0
+symptoms: somnolence, vomiting
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 112
+Visit - 1
+Arm - 1
+Patient ID 112 has had 28 seizures in the past two months.
+Symptoms reported by the patient include no changes since the previous visit and no significant changes in her medication regimen.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 112
+Visit - 2
+Arm - 1
+
+Patient ID 112 -- VISIT 2
+
+* num\_seizures: 17.0
+* symptoms: dizziness, nausea, ataxia, falling on multiple occasions
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 113
+Visit - 1
+Arm - 1
+
+num\_seizures: 5.0
+symptoms: None reported
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 113
+Visit - 2
+Arm - 1
+
+num\_seizures - 3.0 per month
+symptoms - difficulty with memory and concentration, feeling "spacey" at times, experiencing visual disturbances
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 114
+Visit - 1
+Arm - 1
+
+num_seizures: 6.0
+symptoms: alcoholism, parietal lobe epilepsy, increasing seizure frequency
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 114
+Visit - 2
+Arm - 1
+
+num_seizures: 12.0
+symptoms: dizziness, back pain, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 115
+Visit - 1
+Arm - 1
+
+num_seizures: 13.0
+symptoms: None reported in this note.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 115
+Visit - 2
+Arm - 1
+
+num_seizures: 14.0
+symptoms: diplopia, decreased appetite
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 116
+Visit - 1
+Arm - 1
+
+num\_seizures - 16 seizures in the past 2 months
+symptoms - increased frequency of focal aware seizures with a "zinging" sensation in arms and legs.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 116
+Visit - 2
+Arm - 1
+
+num_seizures: 18.0
+symptoms: somnolence, vomiting, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 117
+Visit - 1
+Arm - 1
+
+num_seizures: 19 seizures per month
+symptoms: seizures, cognitive difficulties
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 117
+Visit - 2
+Arm - 1
+
+num_seizures - 0 (since last visit)
+symptoms - fatigue, sleep disturbances
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 118
+Visit - 1
+Arm - 1
+
+num\_seizures: 14.0
+symptoms: seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 118
+Visit - 2
+Arm - 1
+
+num_seizures: 11.0
+symptoms: somnolence, balance disorder, fall, occasional headaches, dizziness
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 119
+Visit - 1
+Arm - 1
+
+num_seizures: 16.0
+symptoms: simple partial seizures, staring spells, postictal confusion and disorientation
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 119
+Visit - 2
+Arm - 1
+
+num\_seizures - 4.0 seizures, with the most recent occurring 2 weeks ago
+symptoms - dizziness and vomiting during these seizures, ongoing symptoms of depression, asthma, and epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 130
+Visit - 1
+Arm - 1
+
+num_seizures - 13
+symptoms - dermatitis, frontal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 130
+Visit - 2
+Arm - 1
+
+num_seizures - 9
+symptoms - fatigue, ataxia, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 131
+Visit - 1
+Arm - 1
+
+num_seizures: 1
+symptoms: seizure activity, history of multifocal epilepsy, enrolled in randomized controlled trial
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 131
+Visit - 2
+Arm - 1
+
+num\_seizures: 3
+symptoms: seasonal allergies, depression, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 132
+Visit - 1
+Arm - 1
+
+num\_seizures: 22
+symptoms: increased seizure activity, confusion, disorientation, mood changes (labile)
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 132
+Visit - 2
+Arm - 1
+
+num\_seizures: 17
+symptoms: somnolence, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 133
+Visit - 1
+Arm - 1
+
+num_seizures: 5
+symptoms: increased tone in left arm and leg, decreased muscle strength in left hand
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 133
+Visit - 2
+Arm - 1
+
+num_seizures: 11
+symptoms: dizziness, somnolence, constipation, ataxia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 134
+Visit - 1
+Arm - 1
+
+num\_seizures - 96 seizures since last visit
+symptoms - persistent headache, blurred vision, difficulty with balance and coordination
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 134
+Visit - 2
+Arm - 1
+
+num\_seizures: 52
+symptoms: dizziness, constipation, ataxia, back pain
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 135
+Visit - 1
+Arm - 1
+
+num\_seizures - 10 seizures in the past 2 months
+symptoms - mild tremors in hands and feet, no other abnormalities on neurological examination
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 135
+Visit - 2
+Arm - 1
+
+num\_seizures: 0
+symptoms: diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 136
+Visit - 1
+Arm - 1
+
+num_seizures: 22
+symptoms: hypothyroidism, dermatitis, frontal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 136
+Visit - 2
+Arm - 1
+
+num\_seizures: 16
+symptoms: somnolence, nausea, balance disorder
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 137
+Visit - 1
+Arm - 1
+
+* num\_seizures: 13 seizures since last visit
+* symptoms: Seasonal allergies, Parietal Lobe Epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 137
+Visit - 2
+Arm - 1
+
+num_seizures: 13
+symptoms: dizziness, somnolence, headaches
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 138
+Visit - 1
+Arm - 1
+
+num_seizures: 208
+symptoms: schizophrenia, dermatitis, depression, multifocal epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 138
+Visit - 2
+Arm - 1
+
+num_seizures: 81
+symptoms: somnolence, fatigue, vomiting, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 139
+Visit - 1
+Arm - 1
+
+num_seizures: 20
+symptoms: seizures, schizophrenia, dermatitis, temporal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 139
+Visit - 2
+Arm - 1
+
+Patient ID 139 -- VISIT 2
+
+* num\_seizures: 11
+* symptoms: somnolence, nausea, fall, difficulty concentrating, memory issues.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 150
+Visit - 1
+Arm - 1
+
+num_seizures: 11
+symptoms: ADHD, dermatitis, depression, occipital lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 150
+Visit - 2
+Arm - 1
+
+num_seizures - 0 (since last visit)
+symptoms - somnolence, dysarthria, headaches
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 151
+Visit - 1
+Arm - 1
+
+num_seizures: 32
+symptoms: recent increase in seizure activity, history of autism, dermatitis, hypothyroidism, and epilepsy.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 151
+Visit - 2
+Arm - 1
+
+num_seizures: 65
+symptoms: dizziness, nystagmus, diplopia, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 152
+Visit - 1
+Arm - 1
+
+num\_seizures: 53
+symptoms: generalized seizure activity, multiple types of seizures (tonic, atonic, tonic-clonic, and absence)
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 152
+Visit - 2
+Arm - 1
+
+num_seizures: 27
+symptoms: dizziness, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 153
+Visit - 1
+Arm - 1
+
+num_seizures: 7
+symptoms: mild tremors in both hands, slowed speech and movement
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 153
+Visit - 2
+Arm - 1
+
+num_seizures: 12
+symptoms: dizziness, somnolence, fatigue
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 154
+Visit - 1
+Arm - 1
+
+num_seizures: 16
+symptoms: arthritis, hypothyroidism, frontal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 154
+Visit - 2
+Arm - 1
+
+num_seizures: 18
+symptoms: dizziness, somnolence, dysarthria
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 155
+Visit - 1
+Arm - 1
+
+num_seizures: 89
+symptoms: seizures, autism, multifocal epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 155
+Visit - 2
+Arm - 1
+
+Patient ID 155 -- Visit 2 -----------
+- Seizures: 89 (over past 3 mos)
+- Symptoms: Gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 156
+Visit - 1
+Arm - 1
+
+num_seizures: 18
+symptoms: mild tremors, brisk reflexes, no sensory deficits, normal muscle strength, no ataxia or dysmetria.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 156
+Visit - 2
+Arm - 1
+
+num_seizures: 14
+symptoms: Diplopia (new)
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 157
+Visit - 1
+Arm - 1
+
+num\_seizures: 22
+symptoms: hypertension, hypothyroidism, bipolar disorder, temporal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 157
+Visit - 2
+Arm - 1
+
+num\_seizures: 18
+symptoms: increased somnolence, ataxia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 158
+Visit - 1
+Arm - 1
+
+num_seizures: 4
+symptoms: epilepsy, recent seizure activity
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 158
+Visit - 2
+Arm - 1
+
+num_seizures: 5
+symptoms: dizziness, somnolence, fatigue, balance disorder, vertigo
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 159
+Visit - 1
+Arm - 1
+
+num_seizures: 58
+symptoms: cognitive decline, impaired balance and coordination, within normal limits sensory processing
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 159
+Visit - 2
+Arm - 1
+
+num_seizures - 42
+symptoms - Dizziness
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 170
+Visit - 1
+Arm - 1
+
+num\_seizures: 8
+symptoms: increased frequency and longer duration of seizures, confusion, disorientation
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 170
+Visit - 2
+Arm - 1
+
+num_seizures - 12
+symptoms - somnolence, back pain, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 171
+Visit - 1
+Arm - 1
+
+num\_seizures: 7
+symptoms: seizures, generalized epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 171
+Visit - 2
+Arm - 1
+
+num_seizures: 1 (since last visit)
+symptoms: somnolence, fatigue, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 172
+Visit - 1
+Arm - 1
+
+num\_seizures = 24
+symptoms = ["chronic pain and stiffness in joints", "difficulty sleeping due to nighttime seizure activity", "feeling "very tired" and experiencing "brain fog" intermittently throughout the day"]
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 172
+Visit - 2
+Arm - 1
+
+num_seizures - 22
+symptoms - dizziness, somnolence, balance disorder, dysarthria, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 173
+Visit - 1
+Arm - 1
+
+num\_seizures - 18 symptoms - None reported
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 173
+Visit - 2
+Arm - 1
+
+num_seizures: 18
+symptoms: dizziness, somnolence, fatigue
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 174
+Visit - 1
+Arm - 1
+
+num_seizures: 7
+symptoms: seasonal allergies, ADHD, alcoholism, epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 174
+Visit - 2
+Arm - 1
+
+num\_seizures: 9
+symptoms: balance disorder, recent seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 175
+Visit - 1
+Arm - 1
+
+num\_seizures - 18
+symptoms - intermittent confusion, dizziness, seizures, worsening dementia-like symptoms in family members.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 175
+Visit - 2
+Arm - 1
+
+num\_seizures - 9 seizures since last visit
+symptoms - dizziness, occasional seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 176
+Visit - 1
+Arm - 1
+
+num_seizures - 8
+symptoms - seasonal allergies, frontal lobe epilepsy with increased seizure frequency in the past 2 months
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 176
+Visit - 2
+Arm - 1
+
+num_seizures: 16
+symptoms: diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 177
+Visit - 1
+Arm - 1
+
+num\_seizures: 9
+symptoms: "seeing stars", loss of consciousness, confusion, disorientation
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 177
+Visit - 2
+Arm - 1
+
+num_seizures: 3
+symptoms: fatigue, seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 178
+Visit - 1
+Arm - 1
+
+Patient ID 178 has had 44 seizures in the past 2 months. Her symptoms include mild weakness on the right side of her body, sensory deficits in her right arm and leg, and generalized tonic-clonic seizures with some features of secondary generalization.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 178
+Visit - 2
+Arm - 1
+
+num\_seizures: 13
+symptoms: dizziness, somnolence, fatigue, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 179
+Visit - 1
+Arm - 1
+
+num_seizures - 113
+symptoms - depression, occipital lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 179
+Visit - 2
+Arm - 1
+
+num_seizures: 98
+symptoms: none reported
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 190
+Visit - 1
+Arm - 1
+
+num\_seizures - 10
+symptoms - frequent seizures, absence seizures with simple partial secondary features, heightened awareness of surroundings, increased sensitivity to light and sound.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 190
+Visit - 2
+Arm - 1
+
+num_seizures: 17/month
+symptoms: None reported
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 191
+Visit - 1
+Arm - 1
+
+num\_seizures: 15
+symptoms: intermittent episodes of confusion, disorientation, sudden loss of consciousness lasting between 30 seconds to 2 minutes; visual hallucinations (seeing colors and shapes); sensory disturbances (hearing buzzing sounds); drowsiness, confusion, and headache for several hours after seizure activity.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 191
+Visit - 2
+Arm - 1
+
+num_seizures: 0
+symptoms: somnolence, constipation
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 192
+Visit - 1
+Arm - 1
+
+num\_seizures: 3
+symptoms: seizure activity
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 192
+Visit - 2
+Arm - 1
+
+num_seizures: 15
+symptoms: None reported
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 193
+Visit - 1
+Arm - 1
+
+num\_seizures: 15
+symptoms: Parietal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 193
+Visit - 2
+Arm - 1
+
+num_seizures: 14
+symptoms: somnolence
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 194
+Visit - 1
+Arm - 1
+
+num_seizures: 12
+symptoms: anxiety, difficulty sleeping, increased frequency and severity of seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 194
+Visit - 2
+Arm - 1
+
+num_seizures: 8
+symptoms: somnolence, ataxia, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 195
+Visit - 1
+Arm - 1
+
+num_seizures: 16
+symptoms: difficulty with memory and concentration
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 195
+Visit - 2
+Arm - 1
+
+Patient ID 195 - Visit 2
+
+num_seizures: 27
+symptoms: dizziness, fatigue, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 196
+Visit - 1
+Arm - 1
+
+num\_seizures: 4
+symptoms: None reported.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 196
+Visit - 2
+Arm - 1
+
+num\_seizures: 6
+symptoms: somnolence, seizures
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 197
+Visit - 1
+Arm - 1
+
+num_seizures: 29
+symptoms: anxiety, autism, multifocal epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 197
+Visit - 2
+Arm - 1
+
+num_seizures: 22
+symptoms: somnolence, constipation, back pain
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 198
+Visit - 1
+Arm - 1
+
+num_seizures: 8
+symptoms: mild tremor in hands and feet, asthma, hypertension, parietal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 198
+Visit - 2
+Arm - 1
+
+num\_seizures: 15
+symptoms: dizziness
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 199
+Visit - 1
+Arm - 1
+
+num_seizures: 14
+symptoms: seizure activity
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 199
+Visit - 2
+Arm - 1
+
+num_seizures: 26
+symptoms: dizziness, somnolence, constipation, balance disorder, vertigo
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 210
+Visit - 1
+Arm - 1
+
+num\_seizures - 3
+symptoms - occasional seizures, mild ataxia, hypotonia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 210
+Visit - 2
+Arm - 1
+
+num_seizures: 8
+symptoms: somnolence, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 211
+Visit - 1
+Arm - 1
+
+num\_seizures - 22 seizures since last visit
+symptoms - generalized epilepsy, cognitive difficulties including memory loss and confusion.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 211
+Visit - 2
+Arm - 1
+
+num_seizures: 16
+symptoms: dizziness, somnolence, vertigo
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 212
+Visit - 1
+Arm - 1
+
+Patient ID 212 -- VISIT 1 -----------
+
+* Seizures: 52 since last visit
+* Symptoms: None reported
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 212
+Visit - 2
+Arm - 1
+
+num_seizures: 48
+symptoms: dizziness, fatigue
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 213
+Visit - 1
+Arm - 1
+
+num\_seizures: 34
+symptoms: seizure frequency increase, frontal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 213
+Visit - 2
+Arm - 1
+
+num_seizures - 0 (since last visit)
+symptoms - dizziness, fatigue, vomiting, upper respiratory infection, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 214
+Visit - 1
+Arm - 1
+
+num_seizures: 10
+symptoms: hypertension, frontal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 214
+Visit - 2
+Arm - 1
+
+num_seizures - 3
+symptoms - dizziness, nausea
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 215
+Visit - 1
+Arm - 1
+
+num_seizures: 15
+symptoms: seizures, bipolar disorder, alcoholism, generalized epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 215
+Visit - 2
+Arm - 1
+
+num_seizures: 19
+symptoms: somnolent, fatigued, gait disturbance, slow and slurred speech, droopy eyes, rigid neck, limp arms and legs, decreased muscle tone, diminished reflexes, difficulty with rapid alternating movements, compromised coordination and balance.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 216
+Visit - 1
+Arm - 1
+
+num\_seizures - 15
+symptoms - blurred vision, difficulty with balance, occasional confusion
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 216
+Visit - 2
+Arm - 1
+
+num_seizures: 13
+symptoms: dizziness, somnolence, back pain
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 217
+Visit - 1
+Arm - 1
+
+num\_seizures - 18
+symptoms - loss of consciousness, confusion, frequent seizures at night, difficulty with concentration and memory.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 217
+Visit - 2
+Arm - 1
+
+num_seizures: 21
+symptoms: somnolence, fatigue, nausea, dysarthria, upper respiratory infection, gait disturbance
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 218
+Visit - 1
+Arm - 1
+
+num_seizures: 13
+symptoms: Parietal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 218
+Visit - 2
+Arm - 1
+
+num\_seizures: 7
+symptoms: dizziness, somnolence, nausea
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 219
+Visit - 1
+Arm - 1
+
+num_seizures: 44
+symptoms: schizophrenia, frontal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 219
+Visit - 2
+Arm - 1
+
+num_seizures - 18
+symptoms - schizophrenia, frontal lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 230
+Visit - 1
+Arm - 1
+
+num_seizures: 13
+symptoms: hypothyroidism, arthritis, bipolar disorder, occipital lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 230
+Visit - 2
+Arm - 1
+
+num_seizures: 5
+symptoms: balance disorders, headaches, decreased appetite
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 231
+Visit - 1
+Arm - 1
+
+num_seizures: 11
+symptoms: mild dysfunction in temporal lobe, seizure journal
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 231
+Visit - 2
+Arm - 1
+
+num_seizures: 3
+symptoms: balance disorder, history of occipital lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 232
+Visit - 1
+Arm - 1
+
+num_seizures: 124
+symptoms: mild weakness in left extremities, increased muscle tone, slight tremor in hands
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 232
+Visit - 2
+Arm - 1
+
+* num\_seizures: 133
+* symptoms: dizziness, somnolence
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 233
+Visit - 1
+Arm - 1
+
+num\_seizures: 11
+symptoms: seizure activity
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 233
+Visit - 2
+Arm - 1
+
+num_seizures: 16
+symptoms: dizziness
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 234
+Visit - 1
+Arm - 1
+
+num\_seizures: 5
+symptoms: seizure activity, autism, bipolar disorder, hypertension, occipital lobe epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 234
+Visit - 2
+Arm - 1
+
+num_seizures: 17
+symptoms: mild nausea
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 235
+Visit - 1
+Arm - 1
+
+num_seizures: 7
+symptoms: temporal lobe epilepsy, recent increase in seizure frequency.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 235
+Visit - 2
+Arm - 1
+
+num\_seizures - 3 seizures during ID X93461 treatment
+symptoms - somnolence reported by the patient
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 236
+Visit - 1
+Arm - 1
+
+Patient ID 236 had an increase in seizure activity with a total of 8 seizures in the past two months. His symptoms include anxiety, asthma, seasonal allergies, and epilepsy.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 236
+Visit - 2
+Arm - 1
+
+num_seizures: 15
+symptoms: nausea, diplopia
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 237
+Visit - 1
+Arm - 1
+
+num\_seizures - 9
+symptoms - difficulty with memory and concentration, recent changes in mood, including increased irritability and anxiety.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 237
+Visit - 2
+Arm - 1
+
+num\_seizures - 11, symptoms - no reported symptoms.
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 238
+Visit - 1
+Arm - 1
+
+num_seizures: 7
+symptoms: difficulty with memory and concentration
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 238
+Visit - 2
+Arm - 1
+
+num_seizures: 4
+symptoms: decreased appetite
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 239
+Visit - 1
+Arm - 1
+
+num_seizures: 7
+symptoms: seasonal allergies, ADHD, epilepsy
+----------------END OF PATIENT ENCOUNTER---------------
+ID - 239
+Visit - 2
+Arm - 1
+
+Patient ID 239 - Visit 2
+
+num_seizures: 19
+symptoms: vertigo, worsening of seasonal allergies and ADHD symptoms, dizziness
+----------------END OF PATIENT ENCOUNTER---------------

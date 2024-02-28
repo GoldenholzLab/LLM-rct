@@ -1,0 +1,240 @@
+0	0	12	10	"somnolence, URI"
+1	0	8	42	somnolence
+2	0	17	0	
+3	0	14	23	URI
+4	0	13	30	none
+5	0	113	132	balance disorder
+6	0	59	216	"mild left hemiparesis, ataxia"
+7	0	5	12	
+8	0	3	13	
+9	0	5	13	fatigue
+20	0	32	165	dizziness
+21	0	10	17	
+22	0	21	29	
+23	0	6	65	URI
+24	0	NA	18	"dizziness, URI"
+25	0	43	23	"dizziness, somnolence"
+26	0	12	15	
+27	0	18	15	"dizziness, URI"
+28	0	41	79	
+29	0	12	17	back pain
+30	0	10	20	
+41	0	4	NA	somnolence
+42	0	12	20	"fatigue, balance disorder"
+43	0	7	51	dizziness
+44	0	16	18	"dizziness, somnolence"
+45	0	12	NA	
+46	0	10	14	
+47	0	9	9	dizziness
+48	0	18	33	fatigue
+49	0	19	27	"somnolence, fatigue, URI"
+60	0	5	6	
+61	0	18	15	
+62	0	21	29	
+63	0	17	170	fall
+64	0	17	30	
+65	0	5	16	"ataxia, gait disturbance"
+66	0	23	NA	
+67	0	49	43	dizziness
+68	0	13	21	
+69	0	18	14	fall
+80	0	17	46	
+81	0	94	54	"vertigo, headaches"
+82	0	12	NA	decreased appetite
+83	0	9	128	
+84	0	58	33	
+85	0	55	89	
+86	0	4	42	
+87	0	10	16	
+88	0	14	16	
+89	0	3	16	
+100	0	32	60	"somnolence, balance disorder"
+101	0	183	NA	
+102	0	195	344	dizziness
+103	0	9	16	
+104	0	5	9	"dizziness, balance disorder"
+105	0	18		
+106	0	13	22	balance disorder
+107	0	NA	33	headaches
+108	0	58	26	
+109	0	15	NA	
+120	0	2	12	"fatigue, diplopia"
+121	0	17	16	URI
+122	0	13	14	
+123	0	14	18	"dizziness, balance disorder"
+124	0	31	128	"dizziness, headache"
+125	0	4	11	fall
+126	0	2.50	47	
+127	0	4	10	
+128	0	13	18	
+129	0	24	42	vertigo
+140	0	14	7	
+141	0	8	29	balance disorder
+142	0	9	24	somnolence
+143	0	15	22	balance disorder
+144	0	17	31	
+145	0	12	10	
+146	0	27	26	URI
+147	0	9	17	
+148	0	103	61	"dizziness, falls"
+149	0	86	108	balance difficulties
+160	0	14	14	somnolence
+161	0	42	76	gait disturbance
+162	0	24	82	somnolence
+163	0	32	81	
+164	0	3	12	
+165	0	49	38	
+166	0	15	37	dizziness
+167	0	13	25	frequent headaches
+168	0	10	8	
+169	0	6	7	fatigue
+180	0	12	0	
+181	0	13	29	
+182	0	11	8	gait disturbance
+183	0	144	63	dizziness
+184	0	9	24	dizziness
+185	0	14	27	
+186	0	6	17	"vertigo, falling, headache"
+187	0	14	15	dizziness
+188	0	58	43	"somnolence, lethargy"
+189	0	60	NA	
+200	0	28	19	dizziness
+201	0	24	35	
+202	0	5	3	
+203	0	15	64	
+204	0	5	8	
+205	0	70	47	"fatigue, URI"
+206	0	2	9	"dizziness, somnolence"
+207	0	34	118	
+208	0	7	14	"nystagmus, "
+209	0	19	120	dizziness
+220	0	9	17	
+221	0	27	15	somnolence
+222	0	8	17	
+223	0	65	75	fatigue
+224	0	82	141	
+225	0	1	11	fall
+226	0	40	143	diplopia
+227	0	61	66	
+228	0	18	50	
+229	0	8	26	elevated TSH
+10	1	43	23	fatigue
+11	1	44	NA	"gait disturbance, ataxia, dizziness"
+12	1	6	NA	ataxia
+13	1	11	4	"somnolence, fatigue, constipation, vomiting, fall"
+14	1	13	NA	"somnolence, fatigue, vomiting"
+15	1	43	76	"dizziness, somnolence"
+16	1	14	8	balance disorder
+17	1	221	128	"back pain, on exam had new left arm and leg mild weakness, hyperreflexia, sensory deficits in L2,L3,L4 dermatomes, fine motor skills difficulty, "
+18	1	11	9	"dizziness, somnolence, fall, gait disturbance"
+19	1	21	19	fatigue and diplopia
+20	1	6	6	dizziness and somnolence
+31	1	8	7	dizziness
+32	1	6	9	dizziness
+33	1	22	12	"dizziness, headache, diplopia"
+34	1	22	12	"dizziness, somnolence, dysarthria, on exam new decreased sensation on R side of the body"
+35	1	14	10	"somnolence, diplopia"
+36	1	27	14	
+37	1	33	29	"dizziness, somnolence, vertigo, on exam new tremors in hands and feet, slow reaction time"
+38	1	22	25	"dizziness, ataxia, on exam new hyperreflexia"
+39	1	18	18	"fatigue, balance disorder, cognitive decline, Cr 1.5 on labs"
+50	1	28	23	"dizziness, fatigue, nausea, balance disorder"
+51	1	48	155	"decreased appetite, on exam new tremor in hands"
+52	1	19	10	"dizziness, gait disturbance"
+53	1	78	34	
+54	1	14	3	"dizziness, constipation, headaches, gait disturbance"
+55	1	8	3	"dysarthria, slow eye movements, diplopia"
+56	1	5	11	"dizziness, somnolence"
+57	1	28	17	"backpain, somnolence"
+58	1	15	23	"somnolence, back pain, balance disorder, gait disturbance"
+59	1	11	6	"gait/balance diorder, tremors"
+70	1	74	25	"somnolence, mild tremor, rigidity"
+71	1	32	13	"dizziness, somnolence"
+72	1	13	7	constipation
+73	1	18	17	"dizziness, fatigue, vomiting, headaches"
+74	1	11	9	
+75	1	12	5	"somnolence, cognitive decline, difficulty concentrating"
+76	1	10	2	"fatigue, headache, diplopia"
+77	1	NA	2	"dizziness, gait disturbance"
+78	1	59	29	headaches
+79	1	16	12	"somnolence, headache"
+90	1	13	7	ataxia
+91	1	16	6	"ataxia, somnolence, fatigue"
+92	1	9	8	dizziness
+93	1	20	15	"somnolence, fatigue"
+94	1	0	3	"gait disturbance, left facial weakness, ataxia"
+95	1	14	13	
+96	1	59	25	
+97	1	17	12	"balance disorder, weakness, sesnroy deficit in left arm and leg, increased muslce tone on exam"
+98	1	7	3	"dizziness, somnolence, fatigue, dysarthria, diplopia, gait disturbance, weakness in left arm and leg, dysarthria"
+99	1	55	33	"constipation, diplopia"
+110	1	69	30	"somnolence, balance disorder"
+111	1	30	16	"somnolence, vomiting"
+112	1	28	17	"dizziness, nausea, ataxia, falls"
+113	1	5	9	"dizziness, fall"
+114	1	6	12	"dizziness, backpain, diplopia"
+115	1	13	14	"diplopia, decreased appetite, fatigue, "
+116	1	16	18	"somnolence, vomiting, diplopia"
+117	1	19	0	fatigue
+118	1	14	11	"somnolence, balance disorder, fall, dizziness, headaches"
+119	1	16	4	"dizziness, vomiting"
+130	1	13	9	"fatigue, ataxia, gat disturbance"
+131	1	1	3	"somnolence, fatigue, diplopia"
+132	1	22	17	"somnolence, diplopia, hyperreflexia, papilledema, hypothermia"
+133	1	5	11	"dizziness, somnolence, constipation, ataxia"
+134	1	96	52	"dizziness, constipation, ataxia, backpain"
+135	1	10	0	diplopia
+136	1	22	16	"somnolence, nausea, balance disorder"
+137	1	13	13	"dizziness, somnolence, headache"
+138	1	208	81	"somnolence, fatigue, vomiting, diplopia"
+139	1	20	11	"somnolence, nausea, fall"
+150	1	11	NA	"somnolence, dysarthria, headache"
+151	1	32	65	"dizziness, nystagmus, diplopia, gait disturbance"
+152	1	53	27	"dizziness, diplopia"
+153	1	7	12	"dizziness, somnolence, fatigue, dysarthria, diplopia, gait disturbance, weakness in left arm and leg, dysarthria"
+154	1	16	18	"dizziness, somnolence, dysarthria, decreased mobility, tremor, decreased sensation in left arm and leg, hyperreflexia, ataxia"
+155	1	89	89	"gait disturbance, hyperreflexia, "
+156	1	18	14	diplopia
+157	1	22	18	"somnolence, fatigue, cognitive decline, diffculty concentration and attention, weakness in right limbs, ataxia, gait disturbance. "
+158	1	4	5	"dizziness, somnolence, fatigue, balance disorder, vertigo. "
+159	1	58	42	dizziness
+170	1	8	12	"somnolence, back pain, diplopia"
+171	1	7	1	"somnolence, fatigue, diplopia"
+172	1	24	22	"dizziness, somnolence, balance disorder, dysarthria, gait disturbance"
+173	1	18	18	"dizziness, somnolence, fatigue"
+174	1	7	9	balance disorder
+175	1	18	9	dizziness
+176	1	8	16	diplopia
+177	1	9	3	fatigue
+178	1	44	13	"dizziness, somnolence, fatigue, diplopia"
+179	1	113	98	
+190	1	10	51	
+191	1	15	NA	"somnolence, constipation"
+192	1	3	15	
+193	1	15	14	somnolence
+194	1	12	8	"somnolence, ataxia, gait disturbance"
+195	1	16	27	"dizziness, fatigue, gait disturbance"
+196	1	4	6	"somnolence, "
+197	1	29	22	"somnolence, constipation, bacl pain"
+198	1	8	15	dizziness
+199	1	14	26	"dizziness, somnolence, constipation, balance disorder, vertigo"
+210	1	3	8	"somnolence, diplopia"
+211	1	22	16	"dizziness, somnolence, vertigo"
+212	1	52	48	"dizziness, fatigue"
+213	1	34	NA	"dizziness, fatigue, vomiting, URI, diplopia"
+214	1	10	3	"dizziness, nausea"
+215	1	15	19	"somnolence, fatigue, gait disturbance, slow speech, dysarthria, drropy eyelids, neck rigid, arms and legs limp"
+216	1	15	13	"dizziness, somnolence, backpain"
+217	1	18	21	"somnolence, fatugue, nausea, dysarthria URI, gait distubrance"
+218	1	13	7	"dizziness, somnolence, nausea"
+219	1	44	18	
+230	1	13	5	"fatigue, balance disorder, hyporeflexiacognitive decline, "
+231	1	11	3	balance disorder
+232	1	124	133	"dizziness, somnolence"
+233	1	11	16	dizziness
+234	1	5	17	nausea
+235	1	7	3	somnoelnce
+236	1	8	NA	"nausea, diplopia"
+237	1	9	11	
+238	1	7	4	decreased appetite
+239	1	7	19	"dizziness, vertigo"
