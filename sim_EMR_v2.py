@@ -20,7 +20,8 @@ import time
 
 
 def build_trial_set(patients_per_arm = 112,placebo_efficacy = 0, drug_efficacy = 0.39, baseline_dur = 2, test_dur = 3,
-                    fname_raw = 'raw',fname_sum = 'sum',true_sum='true',IDstart=0,noSum=True,rawTF=True):
+                    fname_raw = 'raw',fname_sum = 'sum',true_sum='true',IDstart=0,noSum=True,rawTF=True,
+                    LLM_gen_name='llama2:13b'):
     
     min_sz_rate = 4  # minimum seizure rate per month to be included in the trial
     
@@ -46,13 +47,9 @@ def build_trial_set(patients_per_arm = 112,placebo_efficacy = 0, drug_efficacy =
 
     temp_gen = 1.0
     temp_sum = 0.0
-    LLM_gen_name = 'llama2:13b'      
+    #LLM_gen_name = 'llama2:13b'      
     LLM_sum_name = 'mistral'
 
-    #LLM_gen = Ollama(model=LLM_gen_name,temperature=temp_gen)
-    #LLM_sum = Ollama(model=LLM_sum_name,temperature=temp_sum)
-    LLM_gen = None
-    LLM_sum = None
 
     for arm in range(2):
         with open(f'{fname_raw}_arm{arm}.txt', 'a') as f_raw, open(f'{fname_sum}_arm{arm}.txt', 'a') as f_sum, open(f'{true_sum}_arm{arm}.tsv', 'a') as f_true:
@@ -98,7 +95,8 @@ def build_trial_set(patients_per_arm = 112,placebo_efficacy = 0, drug_efficacy =
                 if rawTF==True:
                     R1,R2 = make_one_patient(name = name, idnum= idnum, drug_name=drug_name , baseline_sz=baseline_sz, 
                                 test_sz=test_sz, baseline_dur=baseline_dur, 
-                                test_dur=test_dur,selected_sx_str = selected_sx_str,noSum=noSum,LLM_gen=LLM_gen,LLM_sum=LLM_sum,arm=arm)
+                                test_dur=test_dur,selected_sx_str = selected_sx_str,noSum=noSum,
+                                LLM_gen_name=LLM_gen_name,LLM_sum_name=LLM_sum_name,arm=arm)
                     f_raw.write(R1[0] + R1[1])
                     if noSum==False:
                         f_sum.write(R2[0] + R2[1])
@@ -148,14 +146,13 @@ def getLLM_response_withLLM(thePrompt,llm,time_out=120):
     return K
 
 def make_one_patient(name = 'Patient ID 999',idnum=999,drug_name='ID3838' , baseline_sz=8, test_sz=8, baseline_dur=2, 
-                    test_dur=3, selected_sx_str='no symptoms',noSum=False,LLM_gen=None,LLM_sum=None,arm=0):
+                    test_dur=3, selected_sx_str='no symptoms',noSum=False,LLM_gen_name='llama2:13b',LLM_sum_name = 'mistral',arm=0):
 
     gc.collect() # clean up the memory
     time_out = 120  # max seconds for generating one response. This is a safety feature to prevent too much output.
     temp_gen = 1.0
     temp_sum = 0.0
-    LLM_gen_name = 'llama2:13b'      
-    LLM_sum_name = 'mistral'
+    
     # Create a client object
     LLM_gen = Ollama(model=LLM_gen_name,temperature=temp_gen)
     LLM_sum = Ollama(model=LLM_sum_name,temperature=temp_sum)
