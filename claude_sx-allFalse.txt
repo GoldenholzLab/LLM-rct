@@ -1,0 +1,13 @@
+	arm0	arm1
+balance disorder	4.0	5.0
+diplopia	1.0	9.0
+dizziness	8.0	19.0
+fall	2.0	2.0
+fatigue	4.0	10.0
+gait disturbance	1.0	7.0
+headache	2.0	4.0
+none	22.0	3.0
+seizures	1.0	1.0
+somnolence	5.0	20.0
+uri	2.0	1.0
+vertigo	2.0	2.0

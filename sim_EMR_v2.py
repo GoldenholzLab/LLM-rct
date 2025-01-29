@@ -17,6 +17,8 @@ import pandas as pd
 
 from langchain_community.llms import Ollama
 import time
+from sklearn.metrics import cohen_kappa_score
+from sklearn.preprocessing import LabelEncoder
 
 
 def build_trial_set(patients_per_arm = 112,placebo_efficacy = 0, drug_efficacy = 0.39, baseline_dur = 2, test_dur = 3,
@@ -375,6 +377,128 @@ def build_my_complete_table(arm0_file, arm1_file,output_prefix='complete_table')
             file_out.write(arm_content[this_arm])
 
 
+def compute_classification():
+    # Load the data into a DataFrame
+    #Tdf = pd.read_csv('RCT1_true.txt', delimiter='\t', names=['ID','arm', 'baseline_sz', 'test_sz', 'sx'])
+    Edf = pd.read_csv('Claude2-summary.txt',skiprows=1,  delimiter='\t', names=['ID','arm', 'baseline_sz_AI', 'test_sz_AI', 'sx_AI']) 
+    Edf['ID'] = Edf['ID'].astype(int)
+    Hdf = pd.read_csv('trial-MD-edited.tsv', delimiter='\t', names=['ID','arm', 'baseline_sz_H', 'test_sz_H', 'sx_H'])
+    Hdf['ID'] = Hdf['ID'].astype(int)
+    combined_df = pd.merge(Edf, Hdf, on=['ID', 'arm'], how='inner')
+
+    combined_df[["baseline_sz_AI", "test_sz_AI"]] = combined_df[["baseline_sz_AI", "test_sz_AI"]].apply(pd.to_numeric, errors="coerce")
+    combined_df[["baseline_sz_H", "test_sz_H"]] = combined_df[["baseline_sz_H", "test_sz_H"]].apply(pd.to_numeric, errors="coerce")
+
+    # Replace NaN values with -1 and convert to int
+    combined_df["baseline_sz_AI"] = combined_df["baseline_sz_AI"].fillna(-1).astype(int)
+    combined_df["baseline_sz_H"] = combined_df["baseline_sz_H"].fillna(-1).astype(int)
+    combined_df["test_sz_AI"] = combined_df["test_sz_AI"].fillna(-1).astype(int)
+    combined_df["test_sz_H"] = combined_df["test_sz_H"].fillna(-1).astype(int)
+
+    # Build a single label set across both columns to ensure that identical strings share the same encoding
+    unique_values = pd.concat([combined_df["sx_AI"], combined_df["sx_H"]]).astype(str).unique()
+    label_encoder = LabelEncoder()
+    label_encoder.fit(unique_values)
+    combined_df["sx_AI_encoded"] = label_encoder.transform(combined_df["sx_AI"].astype(str))
+    combined_df["sx_H_encoded"] = label_encoder.transform(combined_df["sx_H"].astype(str))
+
+    # build sets of all symptoms across all rows
+    all_symptoms = set()
+    for _, row in combined_df.iterrows():
+        h_sx = set(s.strip() for s in str(row["sx_H"]).split(","))
+        ai_sx = set(s.strip() for s in str(row["sx_AI"]).split(","))
+        all_symptoms.update(h_sx)
+        all_symptoms.update(ai_sx)
+
+    bootstrap_sx = []
+    bootstrap_baseline_scores = []
+    bootstrap_test_scores = []
+    n_bootstrap = 100
+
+    gridList = np.zeros((n_bootstrap,4))
+    for i in range(n_bootstrap):
+        sample_df = combined_df.sample(n=len(combined_df), replace=True)
+        kb = cohen_kappa_score(sample_df["baseline_sz_AI"], sample_df["baseline_sz_H"])
+        kt = cohen_kappa_score(sample_df["test_sz_AI"], sample_df["test_sz_H"])
+        ks = cohen_kappa_score(sample_df["sx_AI_encoded"], sample_df["sx_H_encoded"])
+        bootstrap_baseline_scores.append(kb)
+        bootstrap_test_scores.append(kt)
+        bootstrap_sx.append(ks)
+
+        tp = fp = fn = tn = 0
+        for _, row in sample_df.iterrows():
+            h_sx = set(s.strip() for s in str(row["sx_H"]).split(","))
+            ai_sx = set(s.strip() for s in str(row["sx_AI"]).split(","))
+            for s in all_symptoms:
+                in_h = s in h_sx
+                in_ai = s in ai_sx
+                if in_h and in_ai:
+                    tp += 1
+                elif in_ai and not in_h:
+                    fp += 1
+                elif in_h and not in_ai:
+                    fn += 1
+                else:
+                    tn += 1
+        gridList[i,:] = [tp,fp,fn,tn]        
+
+    sensivity = gridList[:,0] / (gridList[:,0] + gridList[:,2]) # tp / (tp + fn)
+    specificity = gridList[:,3] / (gridList[:,1] + gridList[:,3]) # tn / (fp + tn)
+    PPV = gridList[:,0] / (gridList[:,0] + gridList[:,1]) # tp / (tp + fp)
+    NPV = gridList[:,3] / (gridList[:,2] + gridList[:,3]) # tn / (fn + tn)
+
+    baseline_sorted = np.sort(bootstrap_baseline_scores)
+    test_sorted = np.sort(bootstrap_test_scores)
+    sx_sorted = np.sort(bootstrap_sx)
+    sensivity_sorted = np.sort(sensivity)
+    specificity_sorted = np.sort(specificity)
+    PPV_sorted = np.sort(PPV)
+    NPV_sorted = np.sort(NPV)
+    tp_sorted = np.sort(gridList[:,0])
+    fp_sorted = np.sort(gridList[:,1])
+    fn_sorted = np.sort(gridList[:,2])
+    tn_sorted = np.sort(gridList[:,3])
+
+    lower_idx = int(0.025 * n_bootstrap)
+    upper_idx = int(0.975 * n_bootstrap)
+
+    baseline_mean = np.mean(baseline_sorted)
+    baseline_ci = (baseline_sorted[lower_idx], baseline_sorted[upper_idx])
+    test_mean = np.mean(test_sorted)
+    test_ci = (test_sorted[lower_idx], test_sorted[upper_idx])
+    sx_mean = np.mean(sx_sorted)
+    sx_ci = (sx_sorted[lower_idx], sx_sorted[upper_idx])
+    sensivity_mean = np.mean(sensivity_sorted)
+    sensivity_ci = (sensivity_sorted[lower_idx], sensivity_sorted[upper_idx])
+    specificity_mean = np.mean(specificity_sorted)
+    specificity_ci = (specificity_sorted[lower_idx], specificity_sorted[upper_idx])
+    PPV_mean = np.mean(PPV_sorted)
+    PPV_ci = (PPV_sorted[lower_idx], PPV_sorted[upper_idx])
+    NPV_mean = np.mean(NPV_sorted)
+    NPV_ci = (NPV_sorted[lower_idx], NPV_sorted[upper_idx])
+    tp_mean = np.mean(tp_sorted)
+    tp_ci = (tp_sorted[lower_idx], tp_sorted[upper_idx])
+    fp_mean = np.mean(fp_sorted)
+    fp_ci = (fp_sorted[lower_idx], fp_sorted[upper_idx])
+    fn_mean = np.mean(fn_sorted)
+    fn_ci = (fn_sorted[lower_idx], fn_sorted[upper_idx])
+    tn_mean = np.mean(tn_sorted)
+    tn_ci = (tn_sorted[lower_idx], tn_sorted[upper_idx])
+
+
+    print(f"Baseline seizure count Kappa: mean={baseline_mean:.3f}, 95% CI=[{baseline_ci[0]:.3f}, {baseline_ci[1]:.3f}]")
+    print(f"Test seizure count Kappa: mean={test_mean:.3f}, 95% CI=[{test_ci[0]:.3f}, {test_ci[1]:.3f}]")
+    print(f"Overall Symptom Kappa: mean={sx_mean:.3f}, 95% CI=[{sx_ci[0]:.3f}, {sx_ci[1]:.3f}]")
+    print(f"Each symptom Sensitivity: mean={sensivity_mean:.3f}, 95% CI=[{sensivity_ci[0]:.3f}, {sensivity_ci[1]:.3f}]")
+    print(f"Each symptom Specificity: mean={specificity_mean:.3f}, 95% CI=[{specificity_ci[0]:.3f}, {specificity_ci[1]:.3f}]")
+    print(f"Each symptom PPV: mean={PPV_mean:.3f}, 95% CI=[{PPV_ci[0]:.3f}, {PPV_ci[1]:.3f}]")
+    print(f"Each symptom NPV: mean={NPV_mean:.3f}, 95% CI=[{NPV_ci[0]:.3f}, {NPV_ci[1]:.3f}]")
+    print(f"Confusion matrix: TP mean={tp_mean:.3f}, 95% CI=[{tp_ci[0]:.3f}, {tp_ci[1]:.3f}]")
+    print(f"Confusion matrix: FP mean={fp_mean:.3f}, 95% CI=[{fp_ci[0]:.3f}, {fp_ci[1]:.3f}]")
+    print(f"Confusion matrix: FN mean={fn_mean:.3f}, 95% CI=[{fn_ci[0]:.3f}, {fn_ci[1]:.3f}]")
+    print(f"Confusion matrix: TN mean={tn_mean:.3f}, 95% CI=[{tn_ci[0]:.3f}, {tn_ci[1]:.3f}]")
+
+
 def build_result_fig1():
     T = load_true_and_analyze(tsv_file='RCT1_true.txt',headerTF=False)
     E = load_true_and_analyze(tsv_file='Claude2-summary.txt',headerTF=True)
@@ -411,7 +535,7 @@ def build_result_fig1():
     plt.show()
 
 
-def build_result_fig2(do_all = True):
+def build_result_fig2(do_all = True,useH = True):
 
     T = summarize_sx(tsv_file='RCT1_true.txt',out_df=f'true_sx-all{do_all}.txt',headerTF=False,do_all=do_all)
     E = summarize_sx(tsv_file='Claude2-summary.txt',out_df=f'claude_sx-all{do_all}.txt',headerTF=True,do_all=do_all)
@@ -452,13 +576,19 @@ def build_result_fig2(do_all = True):
     sorted_df1 = df1.loc[sorted_df2.index]
 
     # Create subplots
-    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(7, 7))
+    if useH==True:
+        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(7, 3))
+    else:
+        fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(7, 7))
 
     # Plot data on each subplot
 
-
-    ax1 = sorted_df1.plot.bar(ax=ax1, rot=70, color=['black','blue', 'red'])
-    ax2 = sorted_df2.plot.bar(ax=ax2, rot=70, color=['black', 'blue', 'red'])
+    if useH==True:
+        ax1 = sorted_df1.plot.barh(ax=ax1, color=['black','blue', 'red'])
+        ax2 = sorted_df2.plot.barh(ax=ax2, color=['black', 'blue', 'red'])
+    else:
+        ax1 = sorted_df1.plot.bar(ax=ax1, rot=70, color=['black','blue', 'red'])
+        ax2 = sorted_df2.plot.bar(ax=ax2, rot=70, color=['black', 'blue', 'red'])
 
     if do_all==True:
         ax2.legend(loc='upper left')  # Place the legend to the right of the subplot
@@ -466,27 +596,39 @@ def build_result_fig2(do_all = True):
     else:        
         ax1.legend(loc='upper right')  # Place the legend to the right of the subplot
         ax2.legend().set_visible(False)  # Hide the legend for ax2
-    # Hide x-labels on ax1
-    ax1.set_xticklabels([])
-
-    # Add titles and labels
+    
     ax1.set_title('Placebo arm symptoms')
-    ax1.set_ylabel('Percentage')
     ax2.set_title('Drug arm symptoms')
-    ax2.set_ylabel('Percentage')
+        
+    if useH==False:
+        # Hide x-labels on ax1
+        ax1.set_xticklabels([])
 
-    # Rotate x-axis labels for better readability
-    if do_all == True:
-        plt.xticks(rotation=90)
+        # Add titles and labels
+        ax1.set_ylabel('Percentage')
+        ax2.set_ylabel('Percentage')
+
+        # Rotate x-axis labels for better readability
+        if do_all == True:
+            plt.xticks(rotation=90)
+        else:
+            plt.xticks(rotation=80)
     else:
-        plt.xticks(rotation=80)
+        # Add titles and labels
+        ax1.set_xlabel('Percentage')
+        ax2.set_xlabel('Percentage')
 
     # Adjust layout
-    plt.tight_layout()
     ax1.grid(True)
     ax2.grid(True)
-    if do_all==False:
-        plt.savefig('result_fig4.png',dpi=300)
+    if useH==True:
+        txt = 'H'
     else:
-        plt.savefig('result_fig4_all.png',dpi=300)
+        txt = 'V'
+    plt.tight_layout()
+    if do_all==False:
+        plt.savefig(f'result_fig2_{txt}.png',dpi=300)
+    else:
+        plt.savefig(f'result_fig4_all_{txt}.png',dpi=300)
     plt.show()
+    

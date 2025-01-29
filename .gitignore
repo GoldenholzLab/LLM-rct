@@ -1,5 +1,11 @@
 # folders we dont need to copy
 backup/*
+toonyGame.py
+*.wav
+*.jpg
+deleteme.py
+EMR_sim_runner_v2.ipynb
+game?.py
 
 # pictures
 ###########
